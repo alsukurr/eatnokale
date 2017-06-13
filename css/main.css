@@ -1,0 +1,353 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: #fff;
+  font-size: 25px;
+  background-image: url(http://f.cl.ly/items/382i010F2p3P230f1e2L/carr.jpg);
+  background-image: url("../img/carrots3.png"); }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Karla', serif;
+  color: #fff; }
+
+p {
+  color: #6D6D6D; }
+  @media (max-width: 500px) {
+    p {
+      font-size: 16px; } }
+
+header {
+  height: 80vh; }
+  @media (max-width: 500px) {
+    header {
+      height: 100vh; } }
+  header .bunny_container {
+    display: flex;
+    text-align: center; }
+    header .bunny_container h1 {
+      font-size: 58px;
+      text-align: center;
+      color: #e67e22;
+      font-family: 'Bangers', cursive;
+      font-family: 'Pacifico', cursive;
+      color: #e67e22;
+      margin: 0; }
+      @media (max-width: 500px) {
+        header .bunny_container h1 {
+          font-size: 40px; } }
+  header .form_container {
+    text-align: center; }
+  header input#search {
+    border: 1px solid #e67e22;
+    margin-top: 10px;
+    width: 176px;
+    padding: 8px 40px;
+    color: #6d6d6d; }
+  header ::-webkit-input-placeholder {
+    font-size: 15px;
+    padding-left: 17%;
+    padding-top: 3.5%;
+    color: rgba(169, 169, 169, 0.5); }
+  header input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: #e67e22;
+    background-color: #6D6D6D;
+    color: #fff;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 1px  #6D6D6D solid;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    header input[type="submit"]:hover {
+      background-color: #fff;
+      border: 1px  #e67e22 solid;
+      color: #e67e22;
+      cursor: pointer; }
+
+.box {
+  text-align: center;
+  background-color: #fff;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 2%;
+  padding: 15px;
+  background-color: white;
+  border: 1px #e67e22 solid;
+  border: 1px  #6D6D6D solid; }
+  @media (max-width: 500px) {
+    .box {
+      width: 100%;
+      border: none; } }
+
+svg {
+  width: 194px;
+  display: inline;
+  fill: #C18E5F;
+  fill: #6D6D6D; }
+
+.nose {
+  fill: #e74c3c;
+  -webkit-animation: shake 1s infinite alternate;
+  -webkit-transition: opacity 3s ease; }
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: rotate(0); }
+  50% {
+    -webkit-transform: rotate(0.5deg); }
+  70% {
+    -webkit-transform: rotate(-0.5deg); }
+  100% {
+    -webkit-transform: rotate(0); } }
+@-moz-keyframes shake {
+  0% {
+    -webkit-transform: rotate(0); }
+  50% {
+    -webkit-transform: rotate(0.5deg); }
+  70% {
+    -webkit-transform: rotate(-0.5deg); }
+  100% {
+    -webkit-transform: rotate(0); } }
+svg:hover > .nose {
+  -webkit-animation: itchy 0.5s infinite alternate;
+  -webkit-transition: opacity 3s ease; }
+
+svg:hover #eyes {
+  fill: #000;
+  width: 5px; }
+
+@-webkit-keyframes itchy {
+  0% {
+    -webkit-transform: rotate(1deg); }
+  50% {
+    -webkit-transform: rotate(1deg); }
+  70% {
+    -webkit-transform: rotate(-1deg); }
+  100% {
+    -webkit-transform: rotate(-1deg); } }
+@-moz-keyframes itchy {
+  0% {
+    -webkit-transform: rotate(1deg); }
+  50% {
+    -webkit-transform: rotate(1deg); }
+  70% {
+    -webkit-transform: rotate(-1deg); }
+  100% {
+    -webkit-transform: rotate(-1deg); } }
+section.recipe-container #recipe-container {
+  padding: 3% 0; }
+section.recipe-container .wrapper {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center; }
+  @media (max-width: 500px) {
+    section.recipe-container .wrapper {
+      width: 100%; } }
+  section.recipe-container .wrapper:hover img {
+    -webkit-filter: grayscale(30%);
+    filter: grayscale(30%);
+    opacity: 0.9; }
+  section.recipe-container .wrapper:hover .recipe-items:hover {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none;
+    background: #e67e22; }
+    section.recipe-container .wrapper:hover .recipe-items:hover img {
+      opacity: 1;
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
+    section.recipe-container .wrapper:hover .recipe-items:hover h3 {
+      color: #fff; }
+  section.recipe-container .wrapper .recipe-items {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 300px;
+    border: 1px solid #6d6d6d;
+    margin: 10px;
+    overflow: hidden;
+    background: #fafafa;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    section.recipe-container .wrapper .recipe-items h3 {
+      font-size: 20px;
+      margin: 0;
+      padding: 20px;
+      color: #000;
+      color: #545454;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in; }
+  section.recipe-container .wrapper img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #6d6d6d;
+    -webkit-transition: opacity 0.26s ease-out;
+    -moz-transition: opacity 0.26s ease-out;
+    -ms-transition: opacity 0.26s ease-out;
+    -o-transition: opacity 0.26s ease-out;
+    transition: opacity 0.26s ease-out;
+    background-color: #FFF; }
+
+footer {
+  display: none;
+  background: #6D6D6D;
+  width: 100%;
+  padding: 5px 0; }
+  footer p {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff; }
+    footer p:nth-of-type(2) {
+      text-transform: none; }
+  footer a {
+    color: #fff;
+    text-decoration: none; }
+    footer a:hover {
+      color: #e67e22; }
+
+/*# sourceMappingURL=main.css.map */
